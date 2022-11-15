@@ -1,0 +1,324 @@
+body {
+  background-color: #1C1C1C;
+  width: min-content;
+  height: fit-content;
+  margin: 0px;
+  padding: 3%;
+  font-family: "Inter", sans-serif;
+  color: gainsboro;
+  font-size: 4em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* gray/blue big container */
+.container-1 {
+  background-color: #1F2937;
+  width: 100%;
+  height:fit-content;
+  margin: 0 auto;
+  padding: 2em 0em 0.3em 0em;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+
+.titles {
+  height:fit-content;
+  margin: 0 auto;
+  padding: 1em 2em 0em 2em;
+}
+
+/*main-title white*/
+#h1-white {
+  width: fit-content;
+  text-align: left;
+  font-family: "Karla", sans-serif;
+  font-weight: 900;
+  font-size: 2em;
+  margin: 0px;
+}
+
+/*main-title green*/
+#green-h1 {
+  width: fit-content;
+  font-family: "Karla", sans-serif;
+  font-weight: 900;
+  font-size: 2em;
+  color: #10B981;
+  margin-top: 0px;
+  white-space: nowrap;
+}
+
+/*Description paragraph*/
+#paragraph {
+  width: inherit;
+  font-size: 1em;
+  overflow-wrap: break-word;
+  white-space: normal;
+  word-break: normal;
+  margin-bottom: 3.5em;
+}
+
+
+.bg-gray {
+  background-color: #171e28;
+  width: auto;
+  padding: 1.5em 2em 2em 2em;
+  border-radius: 0.2em;
+  display: flex;
+  margin: none;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Div options and passwords */
+.div-length-pass {
+  height: fit-content;
+  font-size: 0.75em;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+}
+
+/* length input"s style */
+#length {
+  background-color: #273549;
+  color: #10B981;
+  font-family: "Karla", sans-serif;
+  font-size: inherit;
+  font-weight: 200;
+  border-radius: 0.5em;
+  width: 5em;
+  height: fit-content;
+  border: none;
+  margin-left: 0.5em;
+  padding: 0.3em;
+  text-align: center;
+}
+
+/*container number + symbols options*/
+.centered-opt {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-size: 0.75em;
+}
+
+/* individual div option + button */
+.options-div {
+  width: max-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: baseline;
+}
+
+.p-opt1 {
+font-size: 0.75em;
+}
+
+.p-opt {
+  margin-right: 1em;
+}
+
+.btn-centered {
+  margin: 0em 0em 0em 0.5em;
+}
+
+/* Container options + button generator + passwords */
+.opt-width {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.centered-generator-pass {
+  margin: 0em 1em;
+  min-width: 17em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* container button password generator */
+.pass-generator {
+  width: 100%;
+  padding: 2em 0em 1em 0em;
+  display: flex;
+  justify-content: center;
+}
+
+/* trigger button */
+#pass-gen-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  background-color: #10B981;
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 0.5em;
+  padding: 0.3em 1.3em;
+  cursor: pointer;
+  height: max-content;
+}
+
+
+/* div password + copy button */
+.pass-button {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1em;
+  margin-top: 1em;
+}
+
+
+.full-pass-btn {
+  width: 100vw;
+  min-width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+/* p where the password is shown */
+.div-buttons-copy {
+  min-width: 100vw;
+  height: 2em;
+  background-color: #273549;
+  font-family: "Inter", sans-serif;
+  font-size: 0.75em;
+  font-weight: 700;
+  color: #55F991;
+  border: none;
+  border-radius: 0.5em;
+  padding: 0em 0.5em;
+  margin-right: 0.5em;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*btn green toggle */
+.style.green {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  width: 4em;
+  /* height: 2em; */
+  /* font-size: 0.75em; */
+  font-size: 1em;
+  border: none;
+  border-radius: 0.5em;
+  transition: 0.1s;
+  background-color: #55F991;
+  color: black;
+
+  height: max-content;
+  padding: 0.3em;
+}
+
+/* btn gray toggle */
+.style {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  width: 4em;
+  /* height: 2em; */
+  /* font-size: 0.75em; */
+  font-size: 1em;
+  border: none;
+  border-radius: 0.5em;
+  transition: 0.1s;
+  background-color: #273549;
+  color: white;
+
+  height: max-content;
+  padding: 0.3em;
+}
+
+
+::placeholder {
+  color: gainsboro;
+  opacity: 0.8;
+  font-family:"Karla", sans-serif;
+  /* font-size: 1em; */
+  font-weight: 100;
+  text-align: center;
+}
+
+#number-el:hover{
+  cursor:pointer;
+}
+
+#symbol-el:hover{
+  cursor:pointer;
+}
+
+#btn-copy1:active {
+  cursor:pointer;
+  background-color: #55F991;
+  color: #1C1C1C;
+  transition: 0.1s;
+}
+
+#btn-copy2:active {
+  cursor: pointer;
+  background-color: #55F991;
+  color: #1C1C1C;
+}
+
+#btn-copy1 {
+  font-size: 0.75em;
+}
+
+#btn-copy2 {
+  font-size: 0.75em;
+}
+
+.img {
+  size: 1em;
+}
+
+/* btn gray toggle */
+.st-copy {
+  width: 2em;
+  height: 2em;
+  font-size: 1em;
+  border: none;
+  border-radius: 0.5em;
+  transition: 0.1s;
+  background-color: #273549;
+  color: white;
+  padding: 0.3em;
+}

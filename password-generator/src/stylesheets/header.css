@@ -1,0 +1,23 @@
+
+.titles {
+  font-size: large;
+}
+
+/*main-title white*/
+#h1-white {
+  font-family: "Karla", sans-serif;
+  font-size:  250%;
+}
+
+/*main-title green*/
+#green-h1 {
+  font-family: "Karla", sans-serif;
+  font-weight: 900;
+  font-size: 250%;
+  color: #10B981;
+}
+
+/*Description paragraph*/
+#paragraph {
+  margin: 10% 0% 10% 0%;
+}
