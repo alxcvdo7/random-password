@@ -83,7 +83,8 @@ function App() {
         <div className="bg-gray">
               {/* LENGTH INPUT */}
           <div className="div-length-pass">
-            <p>Enter your desired password"s length:</p>
+            <p>Choose the length of your passwords:</p>
+            <br/>
             <input
               type="number"
               id="length"
